@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(name='dogebuildcontrib.hello',
       version='0.1',
@@ -6,7 +6,7 @@ setup(name='dogebuildcontrib.hello',
       author='',
       author_email='',
       url='',
-      packages=[
-          'dogebuildcontrib.hello',
-          ],
+      packages=find_packages(include=[
+          'dogebuildcontrib*',
+          ]),
      )
