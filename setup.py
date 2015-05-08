@@ -5,7 +5,7 @@ setup(name='dogebuild-hello',
       description='A hello world plugin for dogebuild.',
       author='Kirill Sulim',
       author_email='kirillsulim@gmail.com',
-      url='https://github.com/dogebuild/hello',
+      url='https://github.com/dogebuild/dogebuild-hello',
       packages=find_packages(include=[
           'dogebuild*',
           ]),
